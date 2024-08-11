@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #262626;
+    height: 100vh;
+    font-family: sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+  }
+  
+  .signUpBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    min-height: 300px;
+    background: #000000;
+    border-radius: 10px;
+    padding: 40px;
+    box-sizing: border-box;
+  }
+  
+  h3 {
+    margin: 0;
+    padding: 0 0 20px;
+    color: #fbf6ff;
+    text-align: center;
+  }
+  
+  .signUpBox input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .signUpBox input[type="text"],
+  .signUpBox input[type="email"],
+  .signUpBox input[type="password"] {
+    border: none;
+    border-bottom: 2px solid #262626;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    background: transparent;
+    font-size: 16px;
+    padding-left: 20px;
+    box-sizing: border-box;
+  }
+  
+  .signUpBox input[type="text"]:hover,
+  .signUpBox input[type="email"]:hover,
+  .signUpBox input[type="password"]:hover {
+    color: #42f3fa;
+    border: 1px solid #42f3fa;
+    box-shadow: 0 0 5px rgba(0, 255, 0, 0.3), 0 0 10px rgba(0, 255, 0, 0.2),
+      0 0 15px rgba(0, 255, 0, 0.1), 0 2px 0 black;
+  }
+  
+  .signUpBox input[type="text"]:focus,
+  .signUpBox input[type="email"]:focus,
+  .signUpBox input[type="password"]:focus {
+    border-bottom: 2px solid #42f3fa;
+  }
+  
+  .signUpBox input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    background: #19aec9;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .signUpBox a {
+    color: #262626;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+  }
+  
+  .signUpBox a:hover {
+    color: #00ffff;
+  }
+  
+  p {
+    color: #0000ff;
+  }
+  

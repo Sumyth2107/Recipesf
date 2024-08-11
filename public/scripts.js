@@ -7,3 +7,4 @@ document.addEventListener('DOMContentLoaded', function () {
       path: 'https://lottie.host/5b9c0abc-560f-4506-bd0c-28a0d8ff83b2/dP3yJN1dJ8.json' // Path to the JSON file
     });
   });
+
